@@ -38,7 +38,16 @@
 
 
 /* CUSTOM PROPS */
+:root {
+  /* COLORS */
+  --pink:#e880e8;
+  --dark-pink:#ff52c1;
+  --body-bg:#684bb1;
 
+  /* FONTS */
+  --body-font:"Open Sans", "Arial", sans-serif;
+  --heading-font: "Poppins", "Arial", sans-serif;
+}
 
 /* GLOBAL */
 
