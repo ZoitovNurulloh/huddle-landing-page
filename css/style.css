@@ -72,6 +72,10 @@ body {
   color: #fff;
   font-family: "Open Sans", "Arial", sans-serif;
   line-height: 1.5;
+  background-image: url(../img/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 img {
@@ -83,9 +87,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 73rem;
+  padding-left: 1.111rem;
+  padding-right: 1.111rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -121,6 +125,12 @@ input:-webkit-autofill:focus {
   color: rgba(52, 49, 61, 0.5);
 } */
 
+
+/* HEADER */
+.header {
+  margin-top: 3.55rem;
+  margin-bottom: 5.77rem;
+}
 
 
 /* MAIN-CONTENT */
