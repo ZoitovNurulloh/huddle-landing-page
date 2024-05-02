@@ -110,6 +110,32 @@ img {
 }
 
 
+/* LOGO */
+.logo {
+  display: block;
+}
+.logo__img {
+  display: block;
+}
+
+/* BUTTON */
+
+.button {
+  border-radius: 1.555rem;
+  padding: 0.72rem 3.555rem;
+  box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+  color: var(--body-bg);
+  line-height: 1.5;
+  font-family: var(--heading-font);
+  transition: color 0.3s ease,
+              background-color 0.3s ease;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: var(--pink);
+}
+
 
 /* AUTOFILL-STYLES */
 /*
