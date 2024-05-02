@@ -83,6 +83,7 @@ img {
   height: auto;
 }
 
+
 /* CONTAINER */
 
 .container {
@@ -138,6 +139,41 @@ input:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
+.build {
+  margin-bottom: 1.5rem;
+}
+
+.build__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.build__img {
+  display: block;
+  width: 696px;
+}
+
+.build__info {
+  width: 100%;
+  max-width: 28.88rem;
+  padding-top: 1.77rem;
+}
+
+.build__info-heading {
+  margin:0;
+  margin-bottom: 1.33rem;
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 2.22rem;
+  line-height: 3.33rem;
+}
+
+.build__info-description {
+  margin-bottom: 1.33rem;
+}
+
 
 
 
